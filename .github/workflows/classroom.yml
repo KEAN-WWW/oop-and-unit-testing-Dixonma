@@ -18,7 +18,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: add
-        setup-command: pip install -r requirements.txt
+        setup-command: pip install -r requirementss.txt
         command: pytest tests/tests_addition.py --pylint
         timeout: 10
         max-score: 10
@@ -27,7 +27,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: subtract
-        setup-command: pip install -r requirements.txt
+        setup-command: pip install -r requirementss.txt
         command: pytest tests/test_subtraction.py --pylint
         timeout: 10
         max-score: 10
@@ -36,7 +36,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: multiply
-        setup-command: pip install -r requirements.txt
+        setup-command: pip install -r requirementss.txt
         command: pytest tests/test_multiplication.py --pylint
         timeout: 10
         max-score: 10
@@ -45,7 +45,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: divide
-        setup-command: pip install -r requirements.txt
+        setup-command: pip install -r requirementss.txt
         command: pytest tests/test_division.py --pylint
         timeout: 10
         max-score: 10
