@@ -1,7 +1,8 @@
-from ..app.addition import add
-from ..app.subtraction import subtract
-from ..app.multiplication import multiply
-from ..app.divison import divide
+from app.addition import add
+from app.subtraction import subtract
+from app.multiplication import multiply
+from app.division import divide
+
 
 
 class Calculator:

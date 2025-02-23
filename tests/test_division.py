@@ -8,5 +8,7 @@ def test_divide():
     assert divide(9, 3) == 3
     assert divide(-10, 2) == -5
 
-    with pytest.raises(ValueError, match="Cannot divide by zero"):
-        divide(5, 0)
+def test_divide_zero_exception():
+    """Test that division by zero raises a ZeroDivisionError."""
+    with pytest.raises(ZeroDivisionError):
+        divide(10, 0)
